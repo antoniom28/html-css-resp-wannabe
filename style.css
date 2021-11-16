@@ -84,6 +84,7 @@ img {
 
    .row{
      margin-top:0;
+     width: 100%;
    }
 
    #lezioni .row{
@@ -112,7 +113,19 @@ img {
   #why .row>.first,
   #why .row>.second,
   #why .row>.third {
-    margin-top:0;
+    margin-top:40px;
   }
+  
+  .row>h1{
+    line-height: 2;
+  }
+
+  .row>.left,
+  .row>.right,
+  .row>.central{
+    width: 100%;
+    margin: 15px 0;
+  }
+
 
  }
